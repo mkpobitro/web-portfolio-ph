@@ -1,0 +1,59 @@
+/* First Section */
+
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+p{
+    color: dimgray;
+}
+
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.section-one{
+    background: url(images/top-banner.png) no-repeat;
+    overflow: hidden;
+
+}
+.section-one span{
+    color: orange;
+}
+
+.half-width{
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+} 
+
+.first-right img{
+    width: 100%;
+}
+
+.btn-link{
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg,lightsalmon, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.btn-link:hover{
+    background: linear-gradient(45deg, tomato, lightsalmon);
+}
+
+
+/* 2. Dream section */
+.dream-section{
+    margin-top: 100px;
+    background: url(images/dream-bg.png) no-repeat;
+    background-position: right;
+    overflow: hidden;
+}
+.dream-section img{
+    width: 75%;
+}
