@@ -61,8 +61,11 @@ p{
     background-position: right;
     overflow: hidden;
 }
+.dream-section .half-width{
+margin-left: 2%;
+}
 .dream-section img{
-    width: 75%;
+    width: 90%;
 }
 .dream-right{
     margin-top: 30px;
