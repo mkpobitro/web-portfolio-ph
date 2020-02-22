@@ -17,12 +17,19 @@ p{
 .section-one{
     background: url(images/top-banner.png) no-repeat;
     overflow: hidden;
-
+    padding-top: 50px;
+}
+.section-one h1{
+    font-size: 32px;
 }
 .section-one span{
-    color: orange;
+    color: tomato;
 }
 
+.top-title{
+    font-size: 36px;
+    margin: 0 0;
+}
 .half-width{
     width: 45%;
     float: left;
@@ -56,4 +63,55 @@ p{
 }
 .dream-section img{
     width: 75%;
+}
+.dream-right{
+    margin-top: 30px;
+}
+
+/* Experiences Section */
+
+.experience-section{
+    padding: 100px 0;
+    overflow: hidden;
+    background: url(images/exp-bg.png) no-repeat;
+    background-position: left;
+}
+.experience-section .title{
+    margin-left: 3%;
+    padding-bottom: 20px;
+}
+
+.experience-section .half-width{
+    box-shadow: 2px 2px 20px gray;
+    padding: 30px;
+    box-sizing: border-box;
+    max-height: 600px;
+    
+}
+
+.fs-title{
+    color: tomato;
+    font-weight: bold;;
+}
+.full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient( tomato, lightsalmon);
+    border-image-slice: 1;
+}
+.baby-web{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2;
+}
+
+
+
+
+/* Footer Section */
+.footer-section{
+    padding: 20px 0;
+}
+
+.copywrite{
+    text-align: center;
 }
