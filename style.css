@@ -61,14 +61,12 @@ p{
     background-position: right;
     overflow: hidden;
 }
-.dream-section .half-width{
-margin-left: 2%;
-}
+
 .dream-section img{
-    width: 90%;
+    width: 80%;
 }
 .dream-right{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 /* Experiences Section */
